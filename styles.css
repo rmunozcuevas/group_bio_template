@@ -46,6 +46,15 @@ header nav button:hover {
     background: #0056b3;
 }
 
+/* mission statement and fieldset styling */
+body fieldset{
+    border: 4px solid black;
+    margin: 0 400px 0 400px;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 2rem;
+}
+
 /* Flex container for team bios and vision sections */
 .container {
     width: 80%;
