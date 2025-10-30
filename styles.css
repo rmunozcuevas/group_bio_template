@@ -4,6 +4,8 @@ body {
     background: linear-gradient(180deg, red, blue);
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Header section styling */
@@ -23,6 +25,11 @@ header {
 /* Menu button styling */
 header nav {
     margin-top: 10px;
+    font-size: 2rem;
+}
+
+header nav a{
+    color: orange;
 }
 
 header nav button {
@@ -101,6 +108,26 @@ box-shadow: 0px 0px 182px 124px rgba(45,255,196,0.9);
 */
 
 /*Ray color theme*/
-bio1{
+#card1 {
+    background: linear-gradient(90deg, green, yellow);
+}
+
+/*Devin's color theme*/
+#card2 {
+    background: linear-gradient(90deg, aqua, orange);
+}
+
+/*Jayden's color theme, change green and yellow to whatever*/
+#card3 {
+    background: linear-gradient(90deg, green, yellow);
+}
+
+/*Tristan's color theme, change green and yellow to whatever*/
+#card4 {
+    background: linear-gradient(90deg, green, yellow);
+}
+
+/*Jean's color theme, change green and yellow to whatever*/
+#card5 {
     background: linear-gradient(90deg, green, yellow);
 }
