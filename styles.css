@@ -33,18 +33,8 @@ header nav a{
     color: orange;
 }
 
-header nav button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 5px;
-}
-
-header nav button:hover {
-    background: #0056b3;
+header nav a:hover {
+    color: #0056b3;
 }
 
 /* mission statement and fieldset styling */
