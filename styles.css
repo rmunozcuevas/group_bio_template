@@ -8,6 +8,13 @@ body {
     background-attachment: fixed;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Header section styling */
 header {
     background: #333;
